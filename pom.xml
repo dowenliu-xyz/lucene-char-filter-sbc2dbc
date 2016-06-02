@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>xyz.dowenliu.npl</groupId>
+    <artifactId>lucene-char-filter-sbc2dbc</artifactId>
+    <version>5.5.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <description>全角转半角charFilter</description>
+
+    <developers>
+        <developer>
+            <id>liufl</id>
+            <name>Fulai Liu</name>
+            <email>hawkdowen@hotmail.com</email>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <dependency.junit.version>4.12</dependency.junit.version>
+        <dependency.lucene.version>5.5.0</dependency.lucene.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${dependency.junit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>${dependency.lucene.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>
