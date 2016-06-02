@@ -6,7 +6,7 @@
 
     <groupId>xyz.dowenliu.npl</groupId>
     <artifactId>lucene-char-filter-sbc2dbc</artifactId>
-    <version>5.5.0.0</version>
+    <version>5.5.0.1</version>
     <packaging>jar</packaging>
     <description>全角转半角charFilter</description>
 
@@ -30,6 +30,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${dependency.junit.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
