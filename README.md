@@ -1,0 +1,1 @@
+lucene全角转半角charFilter
