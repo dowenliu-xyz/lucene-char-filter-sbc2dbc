@@ -30,6 +30,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${dependency.junit.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
