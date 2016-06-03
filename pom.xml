@@ -6,7 +6,7 @@
 
     <groupId>xyz.dowenwork.npl</groupId>
     <artifactId>lucene-char-filter-sbc2dbc</artifactId>
-    <version>5.5.0.2</version>
+    <version>5.5.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>全角转半角charFilter</description>
 
@@ -53,4 +53,21 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <layout>default</layout>
+            <name>Snapshots</name>
+            <uniqueVersion>false</uniqueVersion>
+            <url>http://nexus-server:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>releases</id>
+            <layout>default</layout>
+            <name>Release</name>
+            <uniqueVersion>true</uniqueVersion>
+            <url>http://nexus-server:8081/nexus/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
 </project>
