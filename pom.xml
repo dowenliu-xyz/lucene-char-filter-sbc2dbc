@@ -6,7 +6,7 @@
 
     <groupId>xyz.dowenwork.npl</groupId>
     <artifactId>lucene-char-filter-sbc2dbc</artifactId>
-    <version>5.5.0.3-SNAPSHOT</version>
+    <version>5.5.2.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>全角转半角charFilter</description>
 
@@ -22,7 +22,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dependency.junit.version>4.12</dependency.junit.version>
-        <dependency.lucene.version>5.5.0</dependency.lucene.version>
+        <dependency.lucene.version>5.5.2</dependency.lucene.version>
     </properties>
 
     <dependencies>
