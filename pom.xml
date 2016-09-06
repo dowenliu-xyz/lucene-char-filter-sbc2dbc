@@ -6,7 +6,7 @@
 
     <groupId>xyz.dowenwork.npl</groupId>
     <artifactId>lucene-char-filter-sbc2dbc</artifactId>
-    <version>5.5.2.0</version>
+    <version>5.5.2.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>全角转半角charFilter</description>
 
